@@ -1,26 +1,9 @@
-# Minimal example
+# ANTLR and Gradle multi module example
 
 Install and setup ANTLR:
 
 	$ brew install antlr
 	$ export CLASSPATH=".:/usr/local/Cellar/antlr/4.7.1/antlr-4.7.1-complete.jar"
-
-Create the grammar:
-
-	$ touch Hello.g4
-	$ nano Hello.g4
-
-Add the following text:
-
-	grammar Hello;
-	r : 'hello' ID ;
-	ID : [a-z]+ ;
-	WS : [ \t\r\n]+ -> skip ;
-
-Save the file with ^O and ^X. Then run ANTLR on the grammar:
-
-	$ antlr4 Hello.g4
-	$ javac *.java
 
 To test the grammar, run grun:
 
