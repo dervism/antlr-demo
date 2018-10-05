@@ -6,7 +6,7 @@ plugins {
 
 sourceCompatibility = 1.8
 
-mainClassName = "no.dervis.antlr.demo.hello.Main"
+mainClassName = "no.dervis.antlr.demo.arrayinit.Main"
 
 apply from: "${rootDir}/common.gradle"
 

@@ -1,3 +1,4 @@
 rootProject.name = 'antlr-demo'
 include 'hello'
+include 'arrayinit'
 
